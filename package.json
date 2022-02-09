@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-weather-microservice",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "request": "^2.88.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
